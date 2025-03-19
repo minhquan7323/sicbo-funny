@@ -88,7 +88,7 @@ const DiceGame = ({ user }) => {
             if (selectedBet == result) {
                 success(`Bú ${selectedBet} lụm ${totalAmount.toLocaleString().replace(/,/g, '.')} đ`)
             } else {
-                error(`Ngu loz mất ${totalAmount.toLocaleString().replace(/,/g, '.')} đ`)
+                error(`Ngu loz mấtt ${totalAmount.toLocaleString().replace(/,/g, '.')} đ`)
             }
         }
         handleUpdateUser()
