@@ -13,7 +13,6 @@ import { updateUser } from "../redux/userSlice"
 const socket = io(import.meta.env.VITE_SOCKET_URL)
 
 const DiceGame = ({ user }) => {
-    console.log(user)
     const [diceValues, setDiceValues] = useState([1, 1, 1])
     const [result, setResult] = useState("")
     const [resultDisplay, setResultDisplay] = useState('')
